@@ -36,3 +36,49 @@ class School(Building):
                self.company,
                self.students]
         print(lst)
+
+
+class MyNumber:
+    def __init__(self, value):
+        self.value = value
+
+    def __add__(self, other):
+        return MyNumber(self.value + other.value)
+
+
+class User:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print(f'Hello, my name is {self.name}')
+
+
+class LoggingMixin:
+    def log(self, user_id, password):
+        print(f'Entered {user_id}, password {password}')
+        print(f'Successful')
+
+
+class UserLogging(User, LoggingMixin):
+    pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

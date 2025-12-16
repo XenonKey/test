@@ -13,8 +13,8 @@ school_865.set_info(students = 553)
 school_865.get_info()
 
 
-
-
+a = UserLogging('Giorgi')
+a.log('Giorgi_1999', 12345678)
 
 
 
