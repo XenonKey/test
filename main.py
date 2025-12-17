@@ -37,4 +37,3 @@ def mult_my_list(lst, x):
 
 
 
-
