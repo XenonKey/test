@@ -1,5 +1,6 @@
 import openpyxl as op
 import pprint as pp
+from libs import *
 
 filename = 'Бланк заказа.xlsx'
 
@@ -29,3 +30,4 @@ with open('report_subcat_sku.txt', 'w') as myfile:
         string_to_write = key + ': ' + values + '\n'
         myfile.write(string_to_write)
 
+mult_my_list

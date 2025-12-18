@@ -1,6 +1,8 @@
 from libs import *
+import sys
 
-
+for p in sys.path:
+    print(p)
 
 
 # house17 = Building(1)
@@ -15,11 +17,6 @@ from libs import *
 #
 # a = UserLogging('Giorgi')
 # a.log('Giorgi_1999', 12345678)
-
-
-
-
-
 
 
 
