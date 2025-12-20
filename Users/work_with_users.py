@@ -44,5 +44,3 @@ def change_city():
     os.rename('new_users_info', 'users_info')
 
 
-
-

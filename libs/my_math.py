@@ -6,9 +6,9 @@ def mult_num(x):
     return x*2
 
 
-@timing
-def divide_by(x, y):
-    return x // y
+# @timing
+def division(x, y):
+    return x / y
 
 
 @timing
@@ -17,7 +17,7 @@ def say_hi():
 
 
 @timing
-def multiply(a: int, b) -> int:
+def multiply(a, b) -> int:
     return a * b
 
 
@@ -40,3 +40,4 @@ def mult_my_list(lst, x):
         new_list.append(i * x)
 
     print(new_list)
+
